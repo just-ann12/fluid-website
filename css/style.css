@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+a:hover{
+    cursor: pointer;
+}
+h2{
+    color: #079FD0 ;
+    
+}
+.learn-more a{
+    text-decoration: none;
+    color: #079FD0;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 2.3vw;
+    text-transform: uppercase;
+}
+
+.arrow {
+    border: solid #079FD0;
+    border-width: 0 0.15vw 0.15vw 0;
+    transform: rotate(-45deg);
+    display: inline-block;
+    padding: 0.3vw;
+}
+
+.wrapper{
+    max-width: 1440px;
+    padding-right: 3.458vw;
+    padding-left: 3.458vw;
+
+    margin: 0 auto;
+    padding-top: 1.1vw;
+}
+
+/* header*/
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.1vw;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a img{
+    width: 8.9vw;
+    margin-right: 1.5vw;
+}
+ul.nav{
+    display: flex;
+    list-style-type: none;
+}
+.nav li{
+    margin-right: 1.4vw;
+}
+.nav li:last-of-type{
+    margin-right: 0;
+}
+.nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size:  0.830vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header-button a{
+    font-family: inherit;
+    font-size: 0.83vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.25vw 4vw;
+    color: #fff;
+    background-color: rgba(1, 182, 213, 0.99);
+    border-radius: 0.7vw;
+}
+/* section ebo*/
+.ebo-wrap{
+    position: relative;  
+}
+.ebo-content{
+    width: 74vw;
+    height: 90vh;
+    background-color: #C4C4C4;
+    padding-left: 7.6vw;
+    padding-top: 8vw;
+}
+.ebo-heading{
+    font-size: 18vw;
+    font-weight: 400;
+    line-height: 12vw;
+    margin-bottom: 2.7vw;
+}
+.ebo-content p:first-of-type{
+    color: #fff;
+    font-weight: 500;
+    font-size: 3.7vw;
+    margin-bottom: 2.7vw;
+}
+.ebo-content p:last-of-type{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6vw;
+}
+.ebo-picture img{
+    width: 41.7vw;
+    position: absolute;
+    top: 8.2vw;
+    left: 47.9vw;
+}
+
+/* section feature*/
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7.4vw;
+}
+.mood-wrap{
+    margin-bottom: 7.4vw;
+}
+.feature-content h2{
+    font-size: 3.2vw;
+    font-weight: 400;
+    line-height: 3.3vw;
+    margin-bottom: 2.7vw;
+}
+.feature-content p{
+    font-size: 1.6vw;
+    font-weight: 300;
+    line-height: 2.4vw;
+    margin-bottom: 2.7vw;
+}
+
+.mimic-content{
+    padding-left: 8.9vw;
+    padding-right: 6vw;;
+}
+.mood-content{
+    padding-left: 6vw;
+    padding-right: 8.9vw;
+}
+.picture img{
+    max-width: 100%;
+}
+
+/*section abilities*/
+.abilities{
+    margin-bottom: 4.2vw;
+}
+.abilities-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4.9vw;
+}
+.abilities-tittle{
+    font-size: 3.2vw;
+    font-weight: 400;
+    line-height: 3.3vw;
+    margin-bottom: 6.7vw;
+    text-align: center;
+}
+.avility img{
+    max-width: 100%;
+}
+.activity-content{
+    max-width: 21.4vw;
+}
+.activity-content h2{
+    font-weight: 400;
+    line-height: 2.4vw;
+    font-size: 2vw;
+    margin-top: 3.3vw;
+    margin-bottom: 2.7vw;
+}
+.activity-content p{
+    font-weight: 300;
+    line-height: 2vw;
+    font-size: 1.3vw;
+    margin-bottom: 2.7vw;
+    
+    width: 21.1vw;
+}
+
+/* footer*/
+.footer{
+    background-color: #C4C4C4;
+}
+.footer_wrapper{
+    max-width: 1440px;
+    padding: 4vw 3.458vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.footer-logo img{
+    width: 8.9vw;
+}
+.footer-descr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.footer-descr ul{
+    list-style-type: none;
+}
+.footer-descr ul li{
+    margin-bottom: 1.0vw;
+}
+.footer-descr ul li:last-of-type{
+    margin-bottom: 0;
+}
+.footer-descr ul li a{
+    
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+
+
+.footer-rights{
+    display: flex;
+}
+.footer-rights p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+
+
+
+
